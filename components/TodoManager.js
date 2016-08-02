@@ -1,5 +1,5 @@
 import React from 'react';
-import TodoList from './TodoList.js';
+ import TodoList from './TodoList.js';
 import NewTodo from './NewTodo.js';
 import TodoFooter from './TodoFooter.js';
 const todos = [
@@ -13,9 +13,9 @@ export default React.createClass({
   render:function() {
     return (
         <div>
-        <NewTodo />
-        <TodoList todos={todos} />
-        <TodoFooter todos={todos} />
+          <NewTodo />
+          <TodoList todos={todos} />
+         <TodoFooter todos={todos} />
         </div>
 
     );

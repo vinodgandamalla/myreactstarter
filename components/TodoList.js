@@ -8,7 +8,6 @@ const TodoRow = React.createClass ({
         <span>{this.props.status ? 'Active' : 'Pending'}</span>
         <input type = 'button' value= 'Remove' />
         </li>
-
     );
   }
 });
